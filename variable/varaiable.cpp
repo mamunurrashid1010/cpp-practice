@@ -17,5 +17,16 @@ int main(){
     int number=10;
     cout<<"Integer:" <<number <<endl;
 
+    double weight=10.44;
+    cout<<"Double:" <<weight <<endl;
+
+    char ch='A';
+    cout<<"Character:" <<ch <<endl;
+
+    string str="Hello world";
+    cout<<"String:" <<str <<endl;
+
+    bool re=true;
+    cout<<"Bool:" <<re <<endl;
     return 0;
 }
