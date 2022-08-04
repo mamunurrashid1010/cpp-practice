@@ -28,5 +28,6 @@ int main(){
 
     bool re=true;
     cout<<"Bool:" <<re <<endl;
+
     return 0;
 }
