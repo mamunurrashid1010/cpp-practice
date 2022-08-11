@@ -35,5 +35,17 @@ int main(){
     int len=txt.length();
     cout<<"The string length is:" <<len <<endl;
 
+    //access string by index number
+    string str3="Hello";
+    cout<<str3[0] <<endl;
+    cout<<str3[1] <<endl;
+    cout<<str3[2] <<endl;
+    cout<<str3[3] <<endl;
+    cout<<str3[4] <<endl;
+
+    //change string character by index number
+    str3[0]='j';
+    cout<<str3 <<endl;
+
     return 0;
 }
