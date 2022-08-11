@@ -24,5 +24,16 @@ int main(){
     string concat=str1.append(str2);
     cout<<concat  <<endl;
 
+    //number string
+    string a="10";
+    string b="20";
+    string c=a+b;
+    cout<<c <<endl;
+
+    //string length
+    string txt="abcdefghij";
+    int len=txt.length();
+    cout<<"The string length is:" <<len <<endl;
+
     return 0;
 }
