@@ -47,5 +47,17 @@ int main(){
     str3[0]='j';
     cout<<str3 <<endl;
 
+    //string input from user
+    firstName;
+    cout<<"Enter your first name:";
+    cin>>firstName;
+    cout<<"You'r name is " <<firstName <<endl;
+
+    //sting input from user with whitespace
+    fullName;
+    cout<<"Enter your full name:";
+    getline(cin,fullName);
+    cout<<"You'r full name is" <<fullName <<endl;
+
     return 0;
 }
