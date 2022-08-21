@@ -35,6 +35,18 @@ int main(){
         cout<<ch[2] <<endl;
         cout<<ch[3] <<endl;
 
+        //print array using loop example-1
+        cout<<"Print array using loop example-1" <<endl;
+        for(int i=0;i<4;i++){
+            cout<<"index " <<i <<"=" <<cars[i] <<endl;
+        }
+
+        //print array using loop example-2
+        cout<<"Print array using loop example-2" <<endl;
+        for(int i=0;i<5;i++){
+            cout<<"index " <<i <<"=" <<arr[i] <<endl;
+        }
+
 
     return 0;
 }
