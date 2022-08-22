@@ -46,6 +46,26 @@ int main(){
         for(int i=0;i<5;i++){
             cout<<"index " <<i <<"=" <<arr[i] <<endl;
         }
+        cout<<endl;
+
+        //calculate integer array size(length)
+        int value[5]={11,12,13,14,15};
+        int length=sizeof(value)/sizeof(int);
+        cout<<"value array length: " <<length <<endl;
+
+        //sting length calculate without using build-in function
+        string Str="abcdefgh";
+        int strLen=0;
+        for(int i=0;i<Str[i]!=NULL;i++){
+            strLen++;
+        }
+        cout<<"string length: " <<strLen <<endl;
+
+        //sting length calculate using build-in function
+        string Str1="asdf";
+        int len=Str1.length();
+        cout<<"string-1 length: " <<len <<endl;
+
 
 
     return 0;
