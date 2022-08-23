@@ -61,7 +61,7 @@ int main(){
         }
         cout<<"string length: " <<strLen <<endl;
 
-        //sting length calculate using build-in function
+        //sting length calculate using build-in length() function
         string Str1="asdf";
         int len=Str1.length();
         cout<<"string-1 length: " <<len <<endl;
