@@ -49,5 +49,43 @@ int main(){
     cout<<"letters[1][1][0]=" <<letters[1][1][0] <<endl;
     cout<<"letters[1][1][1]=" <<letters[1][1][1] <<endl;
 
+    //print using loop example-1
+    cout<<"Print using loop example-1:" <<endl;
+    for(int row=0;row<2;row++){
+        for(int col=0;col<3;col++){
+            cout<<strArr[row][col] <<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    //multi dimensional array
+    cout<<"Print using loop example-2:" <<endl;
+    string letters2[3][2][2] = {
+              {
+                { "A", "B" },
+                { "C", "D" }
+              },
+              {
+                { "E", "F" },
+                { "G", "H" }
+              },
+              {
+                { "I", "J" },
+                { "K", "L" }
+              }
+        };
+
+        //print
+        for(int block=0;block<3;block++){
+            for(int row=0;row<2;row++){
+                for(int col=0;col<2;col++){
+                    cout<<letters2[block][row][col] <<" ";
+                }
+                cout<<endl;
+            }
+            cout<<endl;
+        }
+
     return 0;
 }
