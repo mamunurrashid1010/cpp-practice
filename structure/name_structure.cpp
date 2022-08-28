@@ -16,21 +16,21 @@ int main(){
     cout<<"Named Structure Example-1:" <<endl;
 
     // declare variable to use students structure
-    Students student;
+    Students student1,student2;
 
     // assign value
-    student.name="Rezaoul Karim";
-    student.classInfo=6;
+    student1.name="Rezaoul Karim";
+    student1.classInfo=6;
 
-    student.name="Rana";
-    student.classInfo=7;
+    student2.name="Rana";
+    student2.classInfo=7;
 
     //print
-    cout<<"Name:" <<student.name <<endl;
-    cout<<"Class:" <<student.classInfo <<endl;
+    cout<<"Name:" <<student1.name <<endl;
+    cout<<"Class:" <<student1.classInfo <<endl;
     cout<<endl;
-    cout<<"Name:" <<student.name <<endl;
-    cout<<"Class:" <<student.classInfo <<endl;
+    cout<<"Name:" <<student2.name <<endl;
+    cout<<"Class:" <<student2.classInfo <<endl;
 
     return 0;
 }
