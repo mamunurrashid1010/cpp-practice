@@ -18,5 +18,27 @@ int main(){
     // output the memory address of name with the pointer
     cout<<ptr <<endl;
 
+    // -------------- pointer declaration -------------------
+    /* three way to declare pointer:
+        string* str;  //preffered
+        string *str;
+        string * str;
+    */
+
+    // -------------- dereference -------------------
+    cout<<"C++ Dereference:" <<endl;
+
+    // declare variable and assign value
+    string testString="ABCD";
+
+    // pointer declaration
+    string* testPointer=&testString;
+
+    // Reference: output the memory address of testString with the pointer
+    cout<<testPointer <<endl;
+
+    // Dereference: output the value of testString with the pointer
+    cout<<*testPointer <<endl;
+
     return 0;
 }
