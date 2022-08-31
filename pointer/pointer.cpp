@@ -40,5 +40,28 @@ int main(){
     // Dereference: output the value of testString with the pointer
     cout<<*testPointer <<endl;
 
+
+    // -------------- Modify Pointer Value -------------------
+    cout<<"Modify Pointer Value:" <<endl;
+
+    // declare variable and assign value
+    string companyName="ABC company";
+
+    // pointer declaration
+    string* companyNamePtr=&companyName;
+
+    // print address of variable companyName
+    cout<<companyNamePtr <<endl;
+
+    // print value of variable companyName
+    cout<<*companyNamePtr <<endl;
+
+    // change value using pointer
+    *companyNamePtr="xyz company";
+
+    // print
+    cout<<*companyNamePtr <<endl;
+
+
     return 0;
 }
