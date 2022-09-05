@@ -9,6 +9,9 @@ void myFunction2();
 void myFunction3(string str);
 int sum(int a, int b);
 
+// Function with default parameter value
+void myFunction4(string name="Jhon");
+
 int main(){
 
     // function calling
@@ -17,6 +20,8 @@ int main(){
     myFunction3("ABCD");
     // sum
     sum(10,20);
+    myFunction4();
+    myFunction4("hasan");
 
     return 0;
 }
@@ -44,4 +49,10 @@ int sum(int a, int b){
 
     cout<<"Sum:" <<a+b <<endl;
     return 0;
+}
+
+// function-5
+void myFunction4(string name){
+    cout<<" I'm from myFunction4:" <<name <<endl;
+    return;
 }
