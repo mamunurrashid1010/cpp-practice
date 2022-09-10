@@ -32,6 +32,7 @@ int main(){
     // function call
     myFunction(10);
     myFunction(10.5656);
+
     sum(100,150);
     sum(100.5,150.6);
 
